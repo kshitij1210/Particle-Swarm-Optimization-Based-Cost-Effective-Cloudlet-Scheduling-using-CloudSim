@@ -19,7 +19,7 @@ The problem at hand is to minimize the total cost of processing cloudlets by opt
 7.) Ubuntu OS version - 14.04.3
 
 Link to CEC-2013 code
-![alt txt](http://web.mysites.ntu.edu.sg/epnsugan/PublicSite/Shared%20Documents/CEC2013/cec13%20java%20code.rar )
+![alt_text](http://web.mysites.ntu.edu.sg/epnsugan/PublicSite/Shared%20Documents/CEC2013/cec13%20java%20code.rar )
 
 ## Details
 The comparisons were done between Random Scheduling and Particle Swarm Optimization. Also, 4 different variants of PSO were used and tested against **CEC-2013 28 benchmark functions**. 
