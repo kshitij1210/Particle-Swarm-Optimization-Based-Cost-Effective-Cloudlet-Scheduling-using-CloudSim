@@ -72,3 +72,12 @@ Also we tried to implement the same on virtual machines in Oracle Virtual Box to
 
 **Check for dos to unix conversion in case errors in opening the files between host and VMs**
 
+## Files to run in each package
+
+1.) **PSOCEC2013** : PSO
+
+2.) **PSOCloud** : ResCalc
+
+3.) **MultiSwarm** : PSOSubSwarm
+
+4.) **MultiSwarmPSOCloudTest** : Results
