@@ -19,7 +19,19 @@ The problem at hand is to minimize the total cost of processing cloudlets by opt
 7.) Ubuntu OS version - 14.04.3
 
 ## Details
-The comparisons were done between Random Scheduling and Particle Swarm Optimization. Also, 4 different variants of PSO were used and tested against **CEC-2013 28 benchmark functions**. Among them, the best variant was selected for Cloudlet Scheduling. Another heuristic of PSO known as MultiSwarm PSO was also used and tested. In this heuristic instead of using a single swarm, the swarm was divided into a number of smaller swarms with their own respective velocities. The 4 variants stated above were also implemented using MultiSwarm heuristic and tested against **CEC CEC-2013 28 benchmark functions** and also the best variant among them is selected for scheduling cloudlets. Both Single Swarm and MultiSwarm PSO were tested against Random Scheduling and it was observed that both performed a lot better than Random Scheduling. Our work was done keeping in mind both independent and dependent tasks. In our code, there are 4 packages - 
+The comparisons were done between Random Scheduling and Particle Swarm Optimization. Also, 4 different variants of PSO were used and tested against **CEC-2013 28 benchmark functions**. 
+
+The 4 variants are namely - 
+
+1.) Standard PSO heuristic
+
+2.) PSO with Linearly Decreasing Inertia Weight
+
+3.) PSO with improved Constriction Factor
+
+4.) PSO with both Linearly Decreasing Inertia Weight and improved Constriction Factor
+
+Among them, the best variant was selected for Cloudlet Scheduling. Another heuristic of PSO known as MultiSwarm PSO was also used and tested. In this heuristic instead of using a single swarm, the swarm was divided into a number of smaller swarms with their own respective velocities. The 4 variants stated above were also implemented using MultiSwarm heuristic and tested against **CEC CEC-2013 28 benchmark functions** and also the best variant among them is selected for scheduling cloudlets. Both Single Swarm and MultiSwarm PSO were tested against Random Scheduling and it was observed that both performed a lot better than Random Scheduling. Our work was done keeping in mind both independent and dependent tasks. In our code, there are 4 packages - 
 
 1.) **PSOCEC2013** : Which contains 4 variants of PSO codes using JSwarm which are tested on CEC functions.
 
