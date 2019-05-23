@@ -44,7 +44,7 @@ Among them, the best variant was selected for Cloudlet Scheduling. Another heuri
 4.) **MultiSwarmPSOCloudTest** :  Which uses the MultiSwarm PSO to simulate the cloud scenarios for cost effective scheduling.
 
 
-Also we tried to implement the same on virtual machines in Oracle Virtual Box to test and compare our CloudSim reasults on real time environment. We used the CloudSim PSO to obtain the best optimized mapping for in which order and on which virtual machines our cloudlets should run. The shell scripts generated while running the PSOCloud and MultiSwarmPSOCloudTest can be used to run the different corresponding cloudlets on different VMs even in case of independent or dependent tasks.
+Also we tried to implement the same on virtual machines in Oracle Virtual Box to test and compare our CloudSim reasults on real time environment. We used the CloudSim PSO to obtain the best optimized mapping for in which order and on which virtual machines our cloudlets should run. Shell scripts are generated according to mapping obtained. The shell scripts generated while running the PSOCloud and MultiSwarmPSOCloudTest can be used to run the different corresponding cloudlets on different VMs even in case of independent or dependent tasks.
 
 ## How to Set up VirtualBox Instances
 1. Create the number of VM instances as specified in the cloud scenario and the number of programs(Cloudlets).
